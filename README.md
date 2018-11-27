@@ -13,4 +13,15 @@ Cordova支持如下移动操作系统：iOS, Android,ubuntu phone os, Blackberry
 # 怎么在web应用中使用？
 ### 1.安装nodejs<a href="https://nodejs.org/en/">：请参照node官网完成安装</a>
 ### 2.安装cordova：npm install -g cordova
-### 3.安装ionic本例上
+### 3.安装ionic(本例使用ionic作为web层)
+### npm install -g ionic
+### ionic start myApp tabs --type=angular
+### cd myApp
+### 4.添加插件进入ionic应用：ionic cordova plugin add https://github.com/1092682749/cordova-chat-plugin.git
+### 5.声明插件引用：declare var nettyChannel: any;（可将该声明放入组件）
+### 6.调用方法nettyChannel.write()
+### 7.启动应用：ionic serve
+# 写在最后：
+该插件是基于我自己的服务器代码若要更改ip可在：platforms/android/app/src/main/java/com/dyz/android/NettyChatClient.java中
+更改host属性<a href="https://github.com/1092682749/Magic-Server.git">服务器端代码连接</a>
+
