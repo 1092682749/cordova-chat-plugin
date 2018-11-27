@@ -11,7 +11,7 @@ Cordova支持如下移动操作系统：iOS, Android,ubuntu phone os, Blackberry
 # 为什么不用websocket？
 相对于websocket使用netty的nio更接近安卓原生开发、定制度更高,后端服务无缝接轨(后端使用netty的情况下)
 # 怎么在web应用中使用？
-### 1.安装nodejs<a href="https://nodejs.org/en/">：请参照node官网完成安装</a>
+### 1.安装nodejs：<a href="https://nodejs.org/en/">请参照node官网完成安装</a>
 ### 2.安装cordova：npm install -g cordova
 ### 3.安装ionic(本例使用ionic作为web层)
 ### npm install -g ionic
