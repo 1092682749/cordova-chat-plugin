@@ -19,14 +19,14 @@ Cordova支持如下移动操作系统：iOS, Android,ubuntu phone os, Blackberry
 ### ionic start myApp tabs --type=angular
 ### cd myApp
 ### 4.添加插件进入ionic应用：ionic cordova plugin add https://github.com/1092682749/cordova-chat-plugin.git
-### 需要在生成的app gradle下添加依赖（platforms/android/app/build.gradle）
-###    implementation group: 'io.netty', name: 'netty-all', version: '4.1.29.Final'
-###    implementation group: 'com.alibaba', name: 'fastjson', version: '1.2.51'
 ### 5.声明插件引用：declare var nettyChannel: any;（可将该声明放入组件）
 ##### <img src = "https://raw.githubusercontent.com/1092682749/pictureService/master/33E91F92-8C5B-422D-83E0-6A64CDEE3F05.png"/>
 ### 6.调用方法nettyChannel.write()
 #### <img src = "https://raw.githubusercontent.com/1092682749/pictureService/master/201CC1D4-394E-4C54-AC7C-57EE4D16A8B9.png"/>
 ### 7.（1)启动应用：ionic serve
+###    需要在生成的app gradle下添加依赖（platforms/android/app/build.gradle）
+###    implementation group: 'io.netty', name: 'netty-all', version: '4.1.29.Final'
+###    implementation group: 'com.alibaba', name: 'fastjson', version: '1.2.51'
 ###    (2)打包安卓并调试： ionic cordova run android（如果没有android平台会自动添加）
 # 写在最后：
 该插件是基于我自己的服务器代码若要更改ip可在：platforms/android/app/src/main/java/com/dyz/android/NettyChatClient.java中
