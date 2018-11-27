@@ -23,8 +23,8 @@ Cordova支持如下移动操作系统：iOS, Android,ubuntu phone os, Blackberry
 ##### <img src = "https://raw.githubusercontent.com/1092682749/pictureService/master/33E91F92-8C5B-422D-83E0-6A64CDEE3F05.png"/>
 ### 6.调用方法nettyChannel.write()
 #### <img src = "https://raw.githubusercontent.com/1092682749/pictureService/master/201CC1D4-394E-4C54-AC7C-57EE4D16A8B9.png"/>
-### 7.（1)启动应用：ionic serve
-###    (2)打包安卓并调试：
+### 7.（1)启动应用：ionic serve（如果不需要在浏览器查看该应用可跳过此命令）
+###     (2)打包安卓并调试：
 ###    需要在生成的app gradle下添加依赖（platforms/android/app/build.gradle）
 ###    implementation group: 'io.netty', name: 'netty-all', version: '4.1.29.Final'
 ###    implementation group: 'com.alibaba', name: 'fastjson', version: '1.2.51'
