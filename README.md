@@ -6,7 +6,7 @@ Cordova还提供了一组统一的JavaScript类库，以及为这些类库所用
 Cordova支持如下移动操作系统：iOS, Android,ubuntu phone os, Blackberry, Windows Phone, Palm WebOS, Bada 和 Symbian。（这些是百度百科上的内容）
 ##### 个人理解：Cordova为web应用提供了调用系统硬件的中间层，而cordova plugin正是这些功能的具体实现者。
 #### cordova调用硬件的方法是调用相关平台的开发语言，所以也可以说cordova提供了一座连通平台原生开发语言和web(html,js,css)开发语言之间的桥梁。
-<img src="https://raw.githubusercontent.com/1092682749/pictureService/master/cordovaapparchitecture.png"/>
+#### <img src="https://raw.githubusercontent.com/1092682749/pictureService/master/cordovaapparchitecture.png"/>
 # 该插件功能
 该插件是基于java语言提供了建立长连接的方法
 # 为什么不用websocket？
