@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="netty_id" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>nettyChannel</name>
+    <js-module name="nettyChannel" src="www/nettyChannel.js">
+        <clobbers target="nettyChannel" />
+    </js-module>
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="nettyChannel">
+                <param name="android-package" value="com.dyz.android.NettyChannel"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/lib/fastjson-1.2.51.jar" target-dir="src/main/libs"/>
+        <source-file src="src/android/lib/netty-all-4.1.30.Final.jar" target-dir="src/main/libs"/>
+        <source-file src="src/android/NettyChannel.java" target-dir="src/com/dyz/android"/>
+        <source-file src="src/android/Constant.java" target-dir="src/com/dyz/android"/>
+        <source-file src="src/android/NettyChatClient.java" target-dir="src/com/dyz/android/"/>
+        <source-file src="src/android/Observer.java" target-dir="src/com/dyz/android/"/>
+        <source-file src="src/android/CacheMessage.java" target-dir="src/com/dyz/android/"/>
+        <source-file src="src/android/JsonToBean.java" target-dir="src/com/dyz/android/"/>
+        <source-file src="src/android/NettyClientHandler.java" target-dir="src/com/dyz/android/"/>
+        <source-file src="src/android/ChatMsgRecord.java" target-dir="src/com/dyz/android/"/>
+    </platform>
+</plugin>
