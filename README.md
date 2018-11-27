@@ -31,5 +31,6 @@ Cordova支持如下移动操作系统：iOS, Android,ubuntu phone os, Blackberry
 ###    ionic cordova run android（如果没有android平台会自动添加）
 # 写在最后：
 该插件是基于我自己的服务器代码若要更改ip可在：platforms/android/app/src/main/java/com/dyz/android/NettyChatClient.java中
-更改host属性<a href="https://github.com/1092682749/Magic-Server.git">服务器端代码连接</a>
+更改host属性<a href="https://github.com/1092682749/Magic-Server.git">服务器端代码</a>
+<a href="https://github.com/1092682749/ionic-chat.git">该插件的应用程序</a>
 
