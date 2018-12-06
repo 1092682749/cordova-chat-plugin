@@ -7,5 +7,13 @@
   },
   "author": "dyz",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1092682749/cordova-chat-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/1092682749/cordova-chat-plugin/issues"
+  },
+  "homepage": "https://github.com/1092682749/cordova-chat-plugin#readme",
   "description": ""
 }

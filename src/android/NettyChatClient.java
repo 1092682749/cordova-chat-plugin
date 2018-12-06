@@ -82,7 +82,7 @@ public enum  NettyChatClient {
                     System.out.println("连接成功");
                     if (register == null) {
                         register = new ChatMsgRecord();
-                        register.setSendname(MainActivity.user);
+                        register.setSendname("123");
                         register.setContent("channel注册请求");
                         future.channel().writeAndFlush(JSON.toJSONString(register)).sync();
                     }
@@ -125,7 +125,7 @@ public enum  NettyChatClient {
         }
         ChatMsgRecord chatMsgRecord = new ChatMsgRecord();
         chatMsgRecord.setContent(msg);
-        chatMsgRecord.setSendname(MainActivity.user);
+        chatMsgRecord.setSendname("123");
         chatMsgRecord.setReceivename(Constant.receiveName);
         chatMsgRecord.setAddtime(new Date());
         chatMsgRecord.setType(1);
